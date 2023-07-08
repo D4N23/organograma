@@ -3,9 +3,10 @@
 }
 
 .colaborador .cabecalho {
-    background-color:  #F0F0F0;
+    background-color: #F0F0F0;
     border-radius: 10px 10px 0px 0px;
 }
+
 .colaborador img {
     width: 100px;
     border-radius: 50%;
@@ -15,7 +16,7 @@
 
 .colaborador .rodape {
     background: #FFFFFF;
-    box-shadow: 5px 5px 15px rgba(231, 137, 83, 0.644);
+    /* box-shadow: 5px 5px 15px #090c0a; */
     border-radius: 0px 0px 10px 10px;
     padding-top: 90px;
     padding-bottom: 40px;

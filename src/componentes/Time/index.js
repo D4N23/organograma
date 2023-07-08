@@ -11,6 +11,9 @@ const border ={borderColor: props.corPrimaria}
             <div className='colaboradoes'>
 
                 {props.colaboradores.map(colaborador => <Colaborador 
+                sombra={props.sombra}
+                corDeFundo={props.corPrimaria}
+                key={colaborador.nome}
                 nome={colaborador.nome} 
                 cargo={colaborador.cargo}
                 imagem={colaborador.imagem}/>)}
